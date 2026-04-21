@@ -4,8 +4,8 @@
     color: #f5f5f5;
     background-color: #0a0e27;
     font-family: 'inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    --ironhack-yellow: #2dc5fa;
-    --ironhack-orange: #3196ff;
+    --ironhack-blue-light: #2dc5fa;
+    --ironhack-blue: #3196ff;
     --ironhack-dark: #0a0e27;
     --ironhack-gray: #1a1f3a;
 }
@@ -22,7 +22,7 @@ body {
 }
 
 a {
-    color: var(--ironhack-yellow);
+    color: var(--ironhack-blue-light);
     text-decoration: none;
     transition: color 0.2s ease;
 }
@@ -43,7 +43,7 @@ a:hover {
     gap: 10px;
     padding: 10px 15px;
     background: linear-gradient(135deg, var(--ironhack-dark) 0%, rgba(8, 37, 228, 0.95) 100%);
-    border-bottom: 2px solid var(--ironhack-yellow);
+    border-bottom: 2px solid var(--ironhack-blue-light);
     position: sticky;
     top: 0;
     z-index: 8;
@@ -55,7 +55,7 @@ a:hover {
     font-weight: 500;
     letter-spacing: 0.08em;
     text-transform: uppercase;
-    background: linear-gradient(135deg, var(--ironhack-yellow) 25%, var(--ironhack-orange) 100%);
+    background: linear-gradient(135deg, var(--ironhack-blue-light) 25%, var(--ironhack-blue) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -78,12 +78,12 @@ nav a {
 
 nav a:hover {
     background-color: rgba(88, 89, 163, 0.2);
-    color: var(--ironhack-yellow);
+    color: var(--ironhack-blue-light);
     transform: translateY(-2px);
 }
 
 strong {
-    color: var(--ironhack-yellow);
+    color: var(--ironhack-blue-light);
 }
 
 .logo-mimusica {
@@ -131,14 +131,14 @@ p {
 }
 
 small {
-    color: var(--ironhack-yellow);
+    color: var(--ironhack-blue-light);
     opacity: 0.8;
 }
 
 .banner-img {
     width: 30%;
     border-radius: 15px;
-    border: 2px solid var(--ironhack-yellow);
+    border: 2px solid var(--ironhack-blue-light);
     margin-bottom: 20px;
     lighting-color: #2dc5fa;
 }
@@ -205,11 +205,11 @@ small {
 
 .link-list li:hover {
     background: rgba(255, 196, 0, 0.05);
-    border-color: var(--ironhack-yellow);
+    border-color: var(--ironhack-blue-light);
 }
 
 .link-list li a {
-    color: var(--ironhack-yellow);
+    color: var(--ironhack-blue-light);
     font-weight: 600;
 }
 
@@ -220,7 +220,7 @@ small {
 }
 
 .ironhack-highlight {
-    color: var(--ironhack-yellow);
+    color: var(--ironhack-blue-light);
 }
 
 .canciones-section {
