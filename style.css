@@ -88,10 +88,9 @@ strong {
 
 .logo-mimusica {
     display: flex;
+    flex-direction: row;
     align-items: center;
-    padding: 10px;
-    margin: 10px 0;  padding: 10px;
-    margin: 10px 0;
+    gap: 24px;
 }
 .logo {
     width: 10%;
