@@ -123,6 +123,7 @@ h2 {
     font-size: 1.3rem;
     margin-bottom: 8px;
     margin-top: 40px;
+    color: #b19c59ee;
 }
 
 p {
@@ -211,6 +212,42 @@ small {
     color: var(--ironhack-blue-light);
     font-weight: 600;
 }
+.top-list {
+    list-style:inside url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"><circle cx="12" cy="12" r="6" fill="%232dc5fa"/></svg>') ;
+    margin: 5px 2px;
+    padding: 0;
+    display: grid;
+    gap: 12px;
+}
+
+.top-artist {
+    background: 
+        linear-gradient(rgba(26, 31, 58, 0.4), rgba(26, 31, 58, 0.4)),
+        url("/banner-hassan.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    border: 1px solid rgba(255, 196, 0, 0.15);
+    border-radius: 16px;
+    padding: 16px 18px;
+    transition: background 0.2s ease, border-color 0.2s ease;
+}
+
+.top-artist:hover, h2.top-artist:hover {
+    background: 
+        linear-gradient(rgba(54, 58, 26, 0.4), rgba(26, 31, 58, 0.4)),
+        url("/banner-hassan.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    border: 1px solid #ffc400ee;
+    border-radius: 16px;
+    padding: 16px 18px;
+    transition: background 0.2s ease, border-color 0.2s ease;
+    color: #ff3c00ee;
+}
 
 .footer {
     text-align: center;
@@ -231,7 +268,9 @@ small {
 .rap-español, .rap-internacional {
     width: 100%;
     max-width: 800px;
-    background: linear-gradient(135deg, rgba(26, 31, 58, 0.4) 0%, rgba(10, 14, 39, 0.6) 100%);
+    background: linear-gradient(135deg, rgba(26, 31, 58, 0.4) 0%, rgba(10, 14, 39, 0.6) 100%), url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400"><defs><pattern id="pattern" x="0" y="0" width="200" height="200" patternUnits="userSpaceOnUse"><circle cx="50" cy="50" r="40" fill="%232dc5fa" opacity="0.1"/><circle cx="150" cy="150" r="40" fill="%23ffc400" opacity="0.1"/></pattern></defs><rect fill="none" width="1200" height="400"/><rect fill="url(%23pattern)" width="1200" height="400"/></svg>');
+    background-size: cover, 200px 200px;
+    background-position: center, 0 0;
     border: 1px solid rgba(255, 255, 255, 0.15);
     border-radius: 18px;
     padding: 24px;
@@ -275,4 +314,17 @@ small {
 .artist-name:hover {
     color: hsl(53, 100%, 60%);
     text-shadow: 2px 4px 8px rgba(49, 150, 255, 0.5);
+}
+
+.volver-inicio {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 1.1rem;
+    border: 5px solid var(--ironhack-blue-light);
+    background-color: hsl(52, 94%, 49%);
+    color: #000;
+    padding: 12px 24px;
+    border-radius: 999px;
+    transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+    margin-left: 2%;
 }
