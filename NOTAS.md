@@ -22,3 +22,37 @@ Es una sola página. Que contenga:
 - Probar a usar una o más tipografias Google Font
 - Botón de 'comprar' aparte del menú, que vaya a la página original del robot. En el botón puedes aplicar estilos como: color de fondo y de texto, borde, border-radius, sombras, hover
 - Recuerda usar los divs y los displays (block, inline-block y flex) para organizar la página
+
+┌───────────────────────────────────────────────┐
+│ LOGO / MARCA         Inicio  Caract  Gal  Cont│
+└───────────────────────────────────────────────┘
+
+                [ RoboCompañero AI ]
+     "El amigo inteligente que habla, aprende..."
+
+┌───────────────┬───────────────┬───────────────┐
+│   [ IMG 1 ]   │   [ IMG 2 ]   │   [ IMG 3 ]   │
+│   (robot)     │   (robot)     │   (robot)     │
+└───────────────┴───────────────┴───────────────┘
+
+
+        ┌──────────────────────────────────────┐
+        │     Características Increíbles       │
+        │                                      │
+        │  ┌──────────────┐  ┌──────────────┐  │
+        │  │ Inteligencia │  │ Funciones    │  │
+        │  │ Avanzada     │  │ Divertidas   │  │
+        │  │ • item       │  │ • item       │  │
+        │  │ • item       │  │ • item       │  │
+        │  └──────────────┘  └──────────────┘  │
+        │                                      │
+        │  ┌──────────────┐  ┌──────────────┐  │
+        │  │ Especificac. │  │ Seguridad    │  │
+        │  │ Técnicas     │  │ y Control    │  │
+        │  │ • item       │  │ • item       │  │
+        │  │ • item       │  │ • item       │  │
+        │  └──────────────┘  └──────────────┘  │
+        └──────────────────────────────────────┘
+
+
+                [  COMPRAR AHORA ]
